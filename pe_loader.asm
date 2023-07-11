@@ -45,7 +45,7 @@ section '.data' data readable writeable
 	filehwnd dd ?						; дискриптор созданного/открытого файла. 
 	hMemory dd ?						; Идентификатоp выделенного блока памяти.
 	addrPE dd ?							; дискриптор фиксированного учаска памяти.
-	name_open du 'DZ8. Simple PE Loadre. Import, Export, Reloc tables.', 00      ; заголовок окна открытия файла.
+	name_open du 'Simple PE Loadre. Import, Export, Reloc tables.', 00      ; заголовок окна открытия файла.
  
 	SizeReadWrite dd ?					; число прочитаных/записанных байт.
    
